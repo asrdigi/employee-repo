@@ -34,7 +34,6 @@ pipeline {
 			echo 'Project packaging stage'
 			bat label: 'Project packaging', script: '''mvn package'''
 		}
-	} 		
-    
-  }
+	} 
+    }
 }
