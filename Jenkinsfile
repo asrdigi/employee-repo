@@ -29,6 +29,7 @@ pipeline {
  		-Dsonar.login=d51e7f6380a528b36cea3db64f4ee21870015682'''
           }
 	}
+
 	stage('Maven Package'){
 		steps{
 			echo 'Project packaging stage'
